@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Part 0 — How the guide works · JS & HTML Training Guide</title>
+<meta name="description" content="The Complete JavaScript &amp; HTML Software Developer Training Guide — a step-by-step, hands-on 16-week curriculum from zero to professional.">
+<link rel="stylesheet" href="assets/site.css">
+<script>(function(){try{var t=localStorage.getItem('jsguide-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+
+<header class="site" data-live="off">
+  <nav class="nav">
+    <a class="brand" href="index.html">JS <span class="amp">&amp;</span> HTML — The Training Guide</a>
+    <div class="nav-right">
+      <a class="nav-link" href="index.html">All parts</a>
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+    </div>
+  </nav>
+</header>
+
+<main class="col">
+  <div class="part-hero">
+    <div class="kicker">Part 0 · Start here</div>
+    <h1>Start Here: How This Guide Works</h1>
+    <div class="anchor-row" data-live="stagger"><a href="#0-1-who-this-guide-is-for">Who This Guide Is For</a><a href="#0-2-the-golden-rules-of-learning-to-code">The Golden Rules of Learning to Code</a><a href="#0-3-the-16-week-fast-track-roadmap">The 16-Week Fast-Track Roadmap</a><a href="#0-4-setting-up-your-developer-workstation">Setting Up Your Developer Workstation</a><a href="#0-5-how-each-lesson-is-structured">How Each Lesson Is Structured</a></div>
+  </div>
+  <article>
+
+<h2 id="0-1-who-this-guide-is-for">0.1  Who This Guide Is For</h2>
+<p>This guide assumes you have never written a single line of code. If you can type, save a file, and open a web browser, you have every prerequisite you need. By the end, you will be able to build complete, working web applications — front end and back end — and present yourself credibly as a junior software developer.</p>
+<p>The promise is simple: every concept is explained in plain English, every concept is immediately followed by a hands-on practical you can copy, paste, and run, and every part ends with a real-world project that belongs in your portfolio.</p>
+<h2 id="0-2-the-golden-rules-of-learning-to-code">0.2  The Golden Rules of Learning to Code</h2>
+<ol><li><strong>Type it, then run it. </strong>Copy-paste gets you moving fast, but retype at least one practical per day by hand. Muscle memory is real.</li><li><strong>Break things on purpose. </strong>After every working practical, change something and predict what will happen. This is how professionals actually learn.</li><li><strong>Code every day. </strong>Ninety minutes daily beats ten hours on Saturday. Consistency rewires your brain; cramming does not.</li><li><strong>Errors are information, not failure. </strong>A red error message is the computer telling you exactly where to look. Read it slowly, from the top.</li><li><strong>Build, don’t just watch. </strong>Tutorials feel productive but build nothing. Every project in this guide produces something real you can show an employer.</li></ol>
+<h2 id="0-3-the-16-week-fast-track-roadmap">0.3  The 16-Week Fast-Track Roadmap</h2>
+<p>This is the fastest realistic path from novice to employable junior developer. &quot;Fast&quot; does not mean shallow — it means no wasted motion. Plan for 2–4 focused hours per day, 5–6 days per week.</p>
+<div class="tbl-wrap"><table><colgroup><col style="width:9.62%"><col style="width:22.44%"><col style="width:38.03%"><col style="width:29.91%"></colgroup><thead><tr><th>Weeks</th><th>Part</th><th>What You Master</th><th>Project Milestone</th></tr></thead><tbody><tr><td>1–2</td><td>Part 1: HTML</td><td>Structure of every web page; semantic markup; forms, tables, media</td><td>Personal profile page + registration form</td></tr><tr><td>2–3</td><td>Part 2: CSS</td><td>Styling, box model, Flexbox, Grid, responsive design</td><td>Fully styled, mobile-friendly profile site</td></tr><tr><td>3–6</td><td>Part 3: JavaScript Core</td><td>Variables, logic, loops, functions, arrays, objects</td><td>Number-guessing game; expense tracker (console)</td></tr><tr><td>6–8</td><td>Part 4: The DOM</td><td>Making pages interactive; events; forms; localStorage</td><td>To-Do app, calculator, quiz app</td></tr><tr><td>8–10</td><td>Part 5: Modern &amp; Async JS</td><td>ES6+, promises, async/await, fetch, public APIs</td><td>Live weather app; GitHub profile finder</td></tr><tr><td>10–12</td><td>Part 6: Node.js Backend</td><td>Servers, npm, Express, REST APIs, JSON</td><td>Remote Job Board API</td></tr><tr><td>12–14</td><td>Part 7: Databases + Capstone</td><td>SQL, CRUD, connecting front end to back end</td><td>Full-stack Remote Job Board (capstone)</td></tr><tr><td>14–15</td><td>Part 8: Cross-Language Integration</td><td>JS + Python, JS + PHP, JS + SQL, WebAssembly</td><td>JS front end powered by a Python API</td></tr><tr><td>15–16</td><td>Part 9: Professional Practice</td><td>Git/GitHub, debugging, deployment, portfolio, job search</td><td>Live portfolio + deployed capstone</td></tr></tbody></table></div>
+<h2 id="0-4-setting-up-your-developer-workstation">0.4  Setting Up Your Developer Workstation</h2>
+<p>You need exactly three tools. All are free. Install them now, in this order.</p>
+<h3>Tool 1: Visual Studio Code (your code editor)</h3>
+<ol><li>Go to <code>https://code.visualstudio.com</code> and click the big download button for your operating system (Windows, Mac, or Linux).</li><li>Run the installer. Accept all default options. On Windows, tick &quot;Add to PATH&quot; and &quot;Open with Code&quot; when offered.</li><li>Open VS Code. Click the Extensions icon on the left sidebar (four squares). Search for and install: <code>Live Server</code> (by Ritwick Dey) and <code>Prettier</code> (code formatter).</li></ol>
+<div class="callout"><div class="co-label">WHY THIS MATTERS</div><p>Live Server lets you see your web page update instantly every time you save. Prettier keeps your code tidy automatically. Professionals use both daily.</p></div>
+<h3>Tool 2: Google Chrome (your testing browser)</h3>
+<p>Any modern browser works, but this guide uses Chrome because its built-in Developer Tools (DevTools) are the industry standard. Download it from google.com/chrome if you don’t have it. Memorise this shortcut now: press F12 (or Ctrl+Shift+I on Windows, Cmd+Option+I on Mac) to open DevTools. You will live in this panel.</p>
+<h3>Tool 3: Node.js (JavaScript outside the browser)</h3>
+<ol><li>Go to <code>https://nodejs.org</code> and download the version labelled LTS (Long Term Support).</li><li>Run the installer with all default options.</li><li>Verify it worked: open your terminal (Windows: press the Windows key, type &quot;cmd&quot;, press Enter. Mac: open the Terminal app) and type the commands below, pressing Enter after each.</li></ol>
+<
+p
+r
+e
+>
+<
+c
+o
+d
+e
+>
+n
+o
+d
+e
+ 
+-
+-
+v
+e
+r
+s
+i
+o
+n
+
+
+n
+p
+m
+ 
+-
+-
+v
+e
+r
+s
+i
+o
+n
+<
+/
+c
+o
+d
+e
+>
+<
+/
+p
+r
+e
+>
+<p>You should see version numbers like v22.x.x and 10.x.x. If you see &quot;command not found&quot;, restart your computer and try again — the installer needs a restart to register itself.</p>
+<h3>Create Your Project Folder</h3>
+<p>Keep everything for this course in one folder. In your terminal, type:</p>
+<
+p
+r
+e
+>
+<
+c
+o
+d
+e
+>
+m
+k
+d
+i
+r
+ 
+d
+e
+v
+-
+j
+o
+u
+r
+n
+e
+y
+
+
+c
+d
+ 
+d
+e
+v
+-
+j
+o
+u
+r
+n
+e
+y
+
+
+m
+k
+d
+i
+r
+ 
+p
+a
+r
+t
+1
+-
+h
+t
+m
+l
+ 
+p
+a
+r
+t
+2
+-
+c
+s
+s
+ 
+p
+a
+r
+t
+3
+-
+j
+s
+ 
+p
+a
+r
+t
+4
+-
+d
+o
+m
+ 
+p
+a
+r
+t
+5
+-
+a
+s
+y
+n
+c
+ 
+p
+a
+r
+t
+6
+-
+n
+o
+d
+e
+ 
+p
+a
+r
+t
+7
+-
+c
+a
+p
+s
+t
+o
+n
+e
+ 
+p
+a
+r
+t
+8
+-
+i
+n
+t
+e
+g
+r
+a
+t
+i
+o
+n
+<
+/
+c
+o
+d
+e
+>
+<
+/
+p
+r
+e
+>
+<p><code>mkdir</code> means &quot;make directory&quot; (create a folder) and <code>cd</code> means &quot;change directory&quot; (go into a folder). You just used your first real developer commands. Open the whole folder in VS Code: File → Open Folder → select <code>dev-journey</code>.</p>
+<h2 id="0-5-how-each-lesson-is-structured">0.5  How Each Lesson Is Structured</h2>
+<ul><li><strong>Concept </strong>— a plain-English explanation with a real-world analogy.</li><li><strong>Copy-and-Paste Practical </strong>— complete, runnable code. Never a fragment. Paste it, run it, watch it work.</li><li><strong>Line-by-Line Breakdown </strong>— what each important line actually does.</li><li><strong>Try This </strong>— a small modification challenge to make the knowledge stick.</li><li><strong>Checkpoint Project </strong>— at the end of each part, a real-world project assembling everything learned.</li></ul>
+  </article>
+  
+<nav class="pager" data-live="off">
+  <a class="ghost" aria-hidden="true"><span class="dir"></span><span class="pt"></span></a>
+  <a class="next" href="part1.html"><span class="dir">NEXT →</span><span class="pt">Part 1 · HTML</span></a>
+</nav>
+</main>
+
+<footer class="site">
+  <div class="col">
+    <div><span class="bm">Everything<span class="bm-i">RemoteJob</span></span> · Developer Training</div>
+    <div>From zero to professional in 16 weeks · &copy; 2026</div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var b=document.getElementById('themeBtn');
+    if(b)b.addEventListener('click',function(){
+      var r=document.documentElement;
+      var n=r.getAttribute('data-theme')==='night'?'':'night';
+      if(n)r.setAttribute('data-theme',n);else r.removeAttribute('data-theme');
+      try{localStorage.setItem('jsguide-theme',n);}catch(e){}
+    });
+  })();
+  window.LIVELINESS={accent:"#C8A04B",distance:14,duration:900,stagger:90,threshold:0.12,once:true,hover:true,ripple:true,smoothAnchors:true,auto:true};
+</script>
+<script src="assets/liveliness.js" defer></script>
+</body>
+</html>
